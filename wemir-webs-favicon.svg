@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64">
+  <!-- Background -->
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#444444"></stop>
+      <stop offset="40%" stop-color="#111111"></stop>
+      <stop offset="100%" stop-color="#000000"></stop>
+    </radialGradient>
+  </defs>
+
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bgGrad)"></rect>
+
+  <!-- Web lines -->
+  <g stroke="#888888" stroke-width="0.8" stroke-linecap="round" opacity="0.55">
+    <!-- Radial lines -->
+    <line x1="32" y1="8" x2="32" y2="56"></line>
+    <line x1="8" y1="32" x2="56" y2="32"></line>
+    <line x1="14" y1="14" x2="50" y2="50"></line>
+    <line x1="50" y1="14" x2="14" y2="50"></line>
+
+    <!-- Inner web rings -->
+    <circle cx="32" cy="32" r="8" fill="none"></circle>
+    <circle cx="32" cy="32" r="16" fill="none"></circle>
+    <circle cx="32" cy="32" r="23" fill="none"></circle>
+  </g>
+
+  <!-- Glow behind W -->
+  <circle cx="32" cy="32" r="11" fill="#ffffff" opacity="0.12"></circle>
+
+  <!-- W letter -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="central" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Poppins', sans-serif" font-size="22" fill="#f5f5f5">
+    W
+  </text>
+</svg>
